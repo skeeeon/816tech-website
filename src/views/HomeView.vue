@@ -12,7 +12,7 @@
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">Ready to Transform Your Operations?</h2>
         <p class="text-lg sm:text-xl mb-8 max-w-2xl mx-auto text-white opacity-90">
-          Let's discuss how IoT can solve your business challenges and drive measurable results. 
+          Let's discuss how 816tech can solve your business challenges and drive measurable results. 
           Contact us for a free consultation and discover what's possible.
         </p>
         
@@ -30,14 +30,6 @@
               {{ contact.action }}
             </a>
           </div>
-        </div>
-        
-        <!-- Main CTA -->
-        <div class="border-t border-white border-opacity-20 pt-8">
-          <button class="btn bg-white hover:bg-gray-100 text-blue-600 font-medium text-lg px-8 py-4">
-            <i class="pi pi-calendar mr-2"></i>
-            Schedule Your Free Consultation
-          </button>
         </div>
       </div>
     </section>
@@ -62,7 +54,7 @@ const contactOptions = [
   {
     icon: 'pi pi-phone',
     title: 'Call Us',
-    description: 'Speak directly with our team about your IoT needs',
+    description: 'Speak directly with our team about your needs',
     action: 'Call Now',
     href: 'tel:+18165558324'
   },
