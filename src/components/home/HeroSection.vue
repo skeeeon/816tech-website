@@ -25,41 +25,28 @@
       <div class="max-w-4xl">
         <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight"
             :style="{ color: 'var(--color-content-primary)' }">
-          Modern Solutions,<br>
-          <span :style="{ color: 'var(--color-primary)' }">Expertly Implemented</span>
+          Enterprise Technology<br>
+          <span :style="{ color: 'var(--color-primary)' }">Built on Open Standards</span>
         </h1>
         <p class="text-lg sm:text-xl mb-6 sm:mb-8 max-w-2xl"
            :style="{ color: 'var(--color-content-secondary)' }">
-          We design, deploy, and support solutions that solve real business challenges 
-          across manufacturing, healthcare, education, and commercial real estate.
+          Kansas City's trusted partner for infrastructure, integration, and innovation. 
+          We architect robust solutions using proven open-source technologies that scale with your business.
         </p>
-        
-        <!-- Key differentiators -->
-        <div class="flex flex-wrap gap-4 mb-8 sm:mb-10">
-          <div v-for="(highlight, index) in highlights" :key="`highlight-${index}`" 
-               class="flex items-center px-3 py-2 rounded-full text-sm font-medium"
-               :style="{ 
-                 backgroundColor: isDarkMode ? 'rgba(59, 130, 246, 0.2)' : 'rgba(59, 130, 246, 0.1)',
-                 color: 'var(--color-primary)'
-               }">
-            <i :class="`pi ${highlight.icon} mr-2`"></i>
-            {{ highlight.text }}
-          </div>
-        </div>
         
         <div class="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
           <button 
             @click="scrollToSection('contact')" 
             class="btn btn-primary"
-            aria-label="Discuss your IoT project with 816tech">
-            Discuss Your Project
+            aria-label="Schedule a consultation with 816tech">
+            Schedule Consultation
           </button>
           <button 
-            @click="scrollToSection('industries')" 
+            @click="scrollToSection('solutions')" 
             class="btn btn-outlined"
-            aria-label="View 816tech industry solutions">
-            <i class="pi pi-building mr-2"></i>
-            View Solutions
+            aria-label="Explore 816tech services">
+            <i class="pi pi-th-large mr-2"></i>
+            Explore Services
           </button>
         </div>
       </div>
@@ -72,17 +59,11 @@ import { useTheme } from '@/composables/useTheme';
 
 /**
  * Hero section component for 816tech
- * Emphasizes implementation expertise and industry solutions
+ * Emphasizes open-source expertise and full technology services
  */
 
 // Use theme composable
 const { isDarkMode } = useTheme();
-
-// Key differentiators for 816tech
-const highlights = [
-  { icon: 'pi-cog', text: 'End-to-End Solutions' },
-  { icon: 'pi-users', text: 'Local Kansas City Team' }
-];
 
 /**
  * Scrolls to the specified section with smooth scrolling
