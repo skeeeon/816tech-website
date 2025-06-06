@@ -1,0 +1,233 @@
+/* 
+ * 816tech Theme System
+ * Professional technology integrator branding with trusted, modern colors
+ */
+
+:root {
+  /* Brand Colors - Professional Tech Blue Palette */
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+  --color-primary-950: #172554;
+  
+  /* Secondary Colors - Tech Gray/Steel */
+  --color-secondary-50: #f8fafc;
+  --color-secondary-100: #f1f5f9;
+  --color-secondary-200: #e2e8f0;
+  --color-secondary-300: #cbd5e1;
+  --color-secondary-400: #94a3b8;
+  --color-secondary-500: #64748b;
+  --color-secondary-600: #475569;
+  --color-secondary-700: #334155;
+  --color-secondary-800: #1e293b;
+  --color-secondary-900: #0f172a;
+  
+  /* UI Colors - Light Mode */
+  --color-surface-primary: #ffffff;
+  --color-surface-secondary: #f8fafc;
+  --color-surface-tertiary: #f1f5f9;
+  --color-surface-hover: #f1f5f9;
+  
+  --color-content-primary: #0f172a;
+  --color-content-secondary: #475569;
+  
+  --color-border-primary: #e2e8f0;
+  --color-border-secondary: #f1f5f9;
+  
+  /* Legacy variables for compatibility */
+  --color-primary: var(--color-primary-600);
+  --color-secondary: var(--color-secondary-600);
+  --color-accent: #f59e0b; /* Amber for highlights */
+  --color-text: var(--color-content-primary);
+  --color-text-light: var(--color-content-secondary);
+  --color-text-inverse: #ffffff;
+  --color-background: var(--color-surface-primary);
+  --color-background-alt: var(--color-surface-secondary);
+  --color-surface: var(--color-surface-primary);
+  --color-surface-alt: var(--color-surface-secondary);
+  --color-border: var(--color-border-primary);
+  
+  /* Success/Error states */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Dark mode overrides */
+.dark {
+  /* UI Colors - Dark Mode */
+  --color-surface-primary: #0f172a;
+  --color-surface-secondary: #1e293b;
+  --color-surface-tertiary: #334155;
+  --color-surface-hover: #334155;
+  
+  --color-content-primary: #f8fafc;
+  --color-content-secondary: #94a3b8;
+  
+  --color-border-primary: #334155;
+  --color-border-secondary: #475569;
+  
+  /* Legacy variables for compatibility */
+  --color-text: var(--color-content-primary);
+  --color-text-light: var(--color-content-secondary);
+  --color-background: var(--color-surface-primary);
+  --color-background-alt: var(--color-surface-secondary);
+  --color-surface: var(--color-surface-primary);
+  --color-surface-alt: var(--color-surface-secondary);
+  --color-border: var(--color-border-primary);
+  
+  /* Update shadows for dark mode */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+/* Typography */
+body {
+  @apply font-sans text-base antialiased;
+  color: var(--color-content-primary);
+  background-color: var(--color-surface-primary);
+  transition: color 0.3s, background-color 0.3s;
+}
+
+/* Section Styles */
+.section {
+  @apply py-12 md:py-20 lg:py-24;
+}
+
+.section-title {
+  @apply text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-8;
+  color: var(--color-content-primary);
+}
+
+.section-subtitle {
+  @apply text-lg sm:text-xl mb-8 md:mb-12 max-w-3xl mx-auto;
+  color: var(--color-content-secondary);
+}
+
+/* Card Styles */
+.card {
+  @apply rounded-lg overflow-hidden;
+  background-color: var(--color-surface-primary);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.card-header {
+  @apply p-6 border-b;
+  background-color: var(--color-surface-secondary);
+  border-color: var(--color-border-primary);
+}
+
+.card-body {
+  @apply p-6;
+}
+
+/* Feature Card */
+.feature-card {
+  @apply p-6 rounded-lg;
+  background-color: var(--color-surface-primary);
+  box-shadow: var(--shadow-md);
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.feature-icon {
+  @apply text-3xl sm:text-4xl mb-4;
+  color: var(--color-primary);
+}
+
+/* Button Styles */
+.btn {
+  @apply inline-flex items-center justify-center px-6 py-3 rounded-md font-medium transition-all duration-200;
+  min-height: 44px;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+  border: 1px solid var(--color-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-700);
+  border-color: var(--color-primary-700);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary-600);
+  color: var(--color-text-inverse);
+  border: 1px solid var(--color-secondary-600);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-700);
+  border-color: var(--color-secondary-700);
+}
+
+.btn-outlined {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.btn-outlined:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+/* Theme transition for smooth color changes */
+.theme-transition {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+}
+
+/* Focus styles for accessibility */
+a:focus-visible, 
+button:focus-visible, 
+input:focus-visible, 
+select:focus-visible, 
+textarea:focus-visible {
+  @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+  @apply dark:ring-primary-400 dark:ring-offset-slate-800;
+}
+
+/* Helper classes */
+.dark-mode-hidden {
+  @apply block dark:hidden;
+}
+  
+.light-mode-hidden {
+  @apply hidden dark:block;
+}
+
+/* Industry-specific accent colors */
+.industry-manufacturing { --industry-color: #dc2626; }
+.industry-healthcare { --industry-color: #059669; }
+.industry-education { --industry-color: #7c3aed; }
+.industry-commercial { --industry-color: #ea580c; }
+.industry-retail { --industry-color: #0891b2; }
