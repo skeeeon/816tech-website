@@ -118,8 +118,8 @@ const contactInfo = [
   },
   { 
     icon: 'pi-phone', 
-    text: '(816) 555-TECH',
-    href: 'tel:+18165558324'
+    text: '(816) 800-3299',
+    href: 'tel:+18168003299'
   },
   { 
     icon: 'pi-envelope', 

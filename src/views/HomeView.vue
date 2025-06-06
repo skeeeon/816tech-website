@@ -56,7 +56,7 @@ const contactOptions = [
     title: 'Call Us',
     description: 'Speak directly with our team about your needs',
     action: 'Call Now',
-    href: 'tel:+18165558324'
+    href: 'tel:+18168003299'
   },
   {
     icon: 'pi pi-envelope',
@@ -70,7 +70,7 @@ const contactOptions = [
     title: 'Schedule Meeting',
     description: 'Book a free consultation to discuss your requirements',
     action: 'Book Meeting',
-    href: '#'
+    href: 'https://cal.com/816tech'
   }
 ];
 </script>
