@@ -41,7 +41,7 @@
       <div class="text-center mt-12 md:mt-16">
         <p class="text-lg mb-6" 
            :style="{ color: 'var(--color-content-secondary)' }">
-          Ready to transform your operations with IoT?
+          Ready to transform your operations?
         </p>
         <button 
           @click="scrollToSection('contact')"
@@ -66,7 +66,7 @@ const solutions = [
     icon: 'pi pi-cog',
     color: '#2563eb', // Primary blue
     title: 'System Integration',
-    description: 'Connect disparate systems and create unified IoT ecosystems that work together seamlessly.',
+    description: 'Connect disparate systems and create unified ecosystems that work together seamlessly.',
     capabilities: [
       'Legacy system modernization',
       'API development and integration',
@@ -78,7 +78,7 @@ const solutions = [
     icon: 'pi pi-chart-line',
     color: '#059669', // Green
     title: 'Data Analytics & Monitoring',
-    description: 'Transform raw IoT data into actionable insights with custom dashboards and analytics.',
+    description: 'Transform raw data into actionable insights with custom dashboards and analytics.',
     capabilities: [
       'Real-time monitoring dashboards',
       'Predictive analytics implementation',
@@ -102,7 +102,7 @@ const solutions = [
     icon: 'pi pi-server',
     color: '#7c3aed', // Purple
     title: 'Infrastructure Design',
-    description: 'Design and deploy scalable IoT infrastructure that grows with your business needs.',
+    description: 'Design and deploy scalable infrastructure that grows with your business needs.',
     capabilities: [
       'Network architecture planning',
       'Edge computing implementation',
@@ -126,7 +126,7 @@ const solutions = [
     icon: 'pi pi-wrench',
     color: '#0891b2', // Cyan
     title: 'Ongoing Support',
-    description: 'Comprehensive support services to keep your IoT systems running smoothly.',
+    description: 'Comprehensive support services to keep your systems running smoothly.',
     capabilities: [
       '24/7 monitoring and support',
       'Preventive maintenance',

@@ -25,12 +25,12 @@
       <div class="max-w-4xl">
         <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight"
             :style="{ color: 'var(--color-content-primary)' }">
-          Modern IoT Solutions,<br>
+          Modern Solutions,<br>
           <span :style="{ color: 'var(--color-primary)' }">Expertly Implemented</span>
         </h1>
         <p class="text-lg sm:text-xl mb-6 sm:mb-8 max-w-2xl"
            :style="{ color: 'var(--color-content-secondary)' }">
-          We design, deploy, and support IoT solutions that solve real business challenges 
+          We design, deploy, and support solutions that solve real business challenges 
           across manufacturing, healthcare, education, and commercial real estate.
         </p>
         
@@ -80,7 +80,6 @@ const { isDarkMode } = useTheme();
 
 // Key differentiators for 816tech
 const highlights = [
-  { icon: 'pi-verified', text: '15+ Years Experience' },
   { icon: 'pi-cog', text: 'End-to-End Solutions' },
   { icon: 'pi-users', text: 'Local Kansas City Team' }
 ];

@@ -4,7 +4,7 @@
     <div class="container mx-auto px-4">
       <h2 class="section-title text-center">Industries We Serve</h2>
       <p class="section-subtitle text-center">
-        Specialized IoT solutions tailored to the unique challenges and opportunities
+        Specialized solutions tailored to the unique challenges and opportunities
         across diverse industries.
       </p>
       

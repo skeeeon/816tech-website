@@ -4,7 +4,7 @@
     <div class="container mx-auto px-4">
       <h2 class="section-title text-center">Our Proven Approach</h2>
       <p class="section-subtitle text-center">
-        Every successful IoT implementation follows our structured three-phase methodology,
+        Every successful implementation follows our structured three-phase methodology,
         ensuring projects are delivered on time, on budget, and exceeding expectations.
       </p>
       
@@ -169,7 +169,7 @@ const phases = [
     title: 'Deploy',
     icon: 'pi pi-cog',
     color: '#ea580c', // Orange
-    description: 'We implement, test, and launch your IoT solution with comprehensive training and support to ensure smooth adoption and ongoing success.',
+    description: 'We implement, test, and launch your solution with comprehensive training and support to ensure smooth adoption and ongoing success.',
     activities: [
       'System installation and configuration',
       'Integration testing and quality assurance',
@@ -177,7 +177,7 @@ const phases = [
       'Go-live support and monitoring',
       'Performance optimization and fine-tuning'
     ],
-    deliverables: 'Fully operational IoT system, comprehensive documentation, trained users, and ongoing support plan.'
+    deliverables: 'Fully operational system, comprehensive documentation, trained users, and ongoing support plan.'
   }
 ];
 
