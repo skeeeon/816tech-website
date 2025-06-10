@@ -113,7 +113,6 @@ import Logo816tech from '../common/Logo816tech.vue';
 // Navigation items focused on industries and solutions
 const navItems = [
   { id: 'solutions', label: 'Solutions' },
-  { id: 'industries', label: 'Industries' },
   { id: 'approach', label: 'Our Approach' },
   { id: 'about', label: 'About' }
 ];

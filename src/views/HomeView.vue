@@ -2,7 +2,7 @@
   <div>
     <HeroSection />
     <SolutionsSection />
-    <IndustriesSection />
+    <!-- <IndustriesSection /> -->
     <ApproachSection />
     <AboutSection />
     
