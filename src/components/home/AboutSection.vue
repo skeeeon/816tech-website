@@ -21,11 +21,11 @@
                  :style="{ color: 'var(--color-content-secondary)' }">
               <p>
                 Founded in Kansas City with over 15 years of combined experience in enterprise technology, 
-                816tech was born from a simple observation: too many IoT projects fail not because of 
+                816tech was born from a simple observation: too many projects fail not because of 
                 technology limitations, but due to poor implementation and lack of business focus.
               </p>
               <p>
-                We bridge the gap between cutting-edge IoT technology and real-world business needs, 
+                We bridge the gap between cutting-edge technology and real-world business needs, 
                 ensuring every project delivers measurable value and sustainable results.
               </p>
               <p>
@@ -231,7 +231,7 @@ const credentials = [
   {
     icon: 'pi pi-graduation-cap',
     title: 'Industry Training',
-    description: 'Ongoing education in latest IoT technologies and practices'
+    description: 'Ongoing education in latest technologies and practices'
   },
   {
     icon: 'pi pi-handshake',
