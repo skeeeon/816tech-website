@@ -133,12 +133,6 @@
               Our local presence means faster response times, on-site support, and a deep 
               understanding of regional business needs.
             </p>
-            <div class="flex items-center text-sm" 
-                 :style="{ color: 'var(--color-content-secondary)' }">
-              <i class="pi pi-clock mr-2" 
-                 :style="{ color: 'var(--color-primary)' }"></i>
-              <span>Same-day response for local clients</span>
-            </div>
           </div>
         </div>
       </div>
@@ -200,12 +194,6 @@ const differentiators = [
     description: 'We focus on solving business problems first, then apply the right technology—not the other way around.'
   },
   {
-    icon: 'pi pi-home',
-    color: '#ea580c',
-    title: 'Local Partnership',
-    description: 'Kansas City-based team means personalized attention, faster response times, and understanding of regional needs.'
-  },
-  {
     icon: 'pi pi-wrench',
     color: '#7c3aed',
     title: 'Full-Service Support',
@@ -237,11 +225,6 @@ const credentials = [
     icon: 'pi pi-handshake',
     title: 'Vendor Partnerships',
     description: 'Authorized partner with leading technology manufacturers'
-  },
-  {
-    icon: 'pi pi-building',
-    title: 'Local Business',
-    description: 'Member of Kansas City Chamber of Commerce'
   }
 ];
 
