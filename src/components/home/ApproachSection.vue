@@ -169,7 +169,7 @@ const phases = [
     title: 'Deploy',
     icon: 'pi pi-cog',
     color: '#ea580c', // Orange
-    description: 'We implement, test, and launch your solution with comprehensive training and support to ensure smooth adoption and ongoing success.',
+    description: 'Together we implement, test, and launch your solution with comprehensive training and ongoing support to ensure smooth adoption and prolonged success.',
     activities: [
       'System installation and configuration',
       'Integration testing and quality assurance',
